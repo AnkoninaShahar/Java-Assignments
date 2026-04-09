@@ -1,70 +1,97 @@
 package Assignment1;
 
+/*
+ * Name: Shahar Ankonina
+ * Class: CIS 35A
+ * Assignment: Lab -1, Project 1
+ * Due Date: 04/17/2026
+ * Date Submitted: 04/08/2026
+ *
+ * Description: Customer billing system for five products.
+ *              Reads quantities, calculates totals, applies
+ *              sales tax, and prints a formatted receipt.
+ */
+
 import java.util.Scanner;
 
-public class CustomerBill
-{
-	public static void main(String[] args)
-	{
-		final float TV_PRICE = 400.00f;
-		final float VCR_PRICE = 220.00f;
-		final float REMOTE_CONTROLLER_PRICE = 35.20f;
-		final float CD_PRICE = 300.00f;
-		final float TAPE_RECORDER_PRICE = 150.00f;
-		final float TAX_RATE = 0.0825f;
+public class CustomerBill {
+
+    public static void main(String[] args) {
+
+        // Constants — unit prices and tax rate
+        final double PRICE_TV             = 400.00;
+        final double PRICE_VCR            = 220.00;
+        final double PRICE_REMOTE         = 35.20;
+        final double PRICE_CD             = 300.00;
+        final double PRICE_TAPE           = 150.00;
+        final double TAX_RATE             = 0.0825;
 		
-		int TVQuantity = 0;
-		int VCRQuantity = 0;
-		int remoteQuantity = 0;
-		int CDQuantity = 0;
-		int recorderQuantity = 0;
+        // Variables to store the quantity of each product
+		int qtyTV = 0;
+		int qtyVCR = 0;
+		int qtyRemote = 0;
+		int qtyCD = 0;
+		int qtyTape = 0;
 		
-		float TVTotal = 0f;
-		float VCRTotal = 0f;
-		float remoteTotal = 0f;
-		float CDTotal = 0f;
-		float recorderTotal = 0f;
+		// Variables to store the total price of each purchase
+		float tpTV = 0f;
+		float tpVCR = 0f;
+		float tpRemote = 0f;
+		float tpCD = 0f;
+		float tpTape = 0f;
 		
+		// The sub total, tax, and grand total of the final purchase
 		float subtotal = 0f;
 		float tax = 0f;
 		float total = 0f;
 		
-		Scanner in = new Scanner(System.in);
+		Scanner in = new Scanner(System.in);	// Scanner initialization
 		
-		System.out.println("How many TV's were sold?");
-		TVQuantity = in.nextInt();
-		TVTotal = TVQuantity * TV_PRICE;
+		// Prompts user for number of TV's bought and reads input
+		System.out.printf("How many TV's were sold?\n");
+		qtyTV = in.nextInt();
+		tpTV = qtyTV * (float)PRICE_TV; // Calculates the total price
 		
-		System.out.println("How many VCR's were sold?");
-		VCRQuantity = in.nextInt();
-		VCRTotal = VCRQuantity * VCR_PRICE;
+		// Prompts user for number of VCR's bought and reads input
+		System.out.printf("How many VCR's were sold?\n");
+		qtyVCR = in.nextInt();
+		tpVCR = qtyVCR * (float)PRICE_VCR; // Calculates the total price
 		
-		System.out.println("How many remote controller's were sold?");
-		remoteQuantity = in.nextInt();
-		remoteTotal = remoteQuantity * REMOTE_CONTROLLER_PRICE;
+		// Prompts user for number of remote controller's bought and reads input
+		System.out.printf("How many remote controller's were sold?\n");
+		qtyRemote = in.nextInt();
+		tpRemote = qtyRemote * (float)PRICE_REMOTE; // Calculates the total price
 		
-		System.out.println("How many CD's were sold?");
-		CDQuantity = in.nextInt();
-		CDTotal = CDQuantity * CD_PRICE;
+		// Prompts user for number of CD's bought and reads input
+		System.out.printf("How many CD's were sold?\n");
+		qtyCD = in.nextInt();
+		tpCD = qtyCD * (float)PRICE_CD; // Calculates the total price
 		
-		System.out.println("How many Tape Recorder's were sold?");
-		recorderQuantity = in.nextInt();
-		recorderTotal = recorderQuantity * TAPE_RECORDER_PRICE;
+		// Prompts user for number of tape recorder's bought and reads input
+		System.out.printf("How many Tape Recorder's were sold?\n");
+		qtyTape = in.nextInt();
+		tpTape = qtyTape * (float)PRICE_TAPE; // Calculates the total price
 		
-		subtotal = TVTotal + VCRTotal + remoteTotal + CDTotal + recorderTotal;
-		tax = subtotal * TAX_RATE;
+		// Calculates the sub total, tax, and grand total
+		subtotal = tpTV + tpVCR + tpRemote + tpCD + tpTape;
+		tax = subtotal * (float)TAX_RATE;
 		total = subtotal + tax;
 		
-		System.out.printf("QTY\t\tDESCRIPTION\t\tUNIT PRICE\t\tTOTAL PRICE\n");
-		System.out.printf("%d\t\tTV\t\t\t$%.2f\t\t\t$%.2f\n", TVQuantity, TV_PRICE, TVTotal);
-		System.out.printf("%d\t\tVCR\t\t\t$%.2f\t\t\t$%.2f\n", VCRQuantity, VCR_PRICE, VCRTotal);
-		System.out.printf("%d\t\tRemote Controller\t$%.2f\t\t\t$%.2f\n", remoteQuantity, REMOTE_CONTROLLER_PRICE, remoteTotal);
-		System.out.printf("%d\t\tCD\t\t\t$%.2f\t\t\t$%.2f\n", CDQuantity, CD_PRICE, CDTotal);
-		System.out.printf("%d\t\tTape Recorder\t\t$%.2f\t\t\t$%.2f\n", recorderQuantity, TAPE_RECORDER_PRICE, recorderTotal);
-		System.out.printf("\nSubtotal:\t$%.2f\n", subtotal);
-		System.out.printf("Tax:\t\t$%.2f\n", tax);
-		System.out.printf("Total:\t\t$%.2f\n", total);
+		// Prints output
+		System.out.printf("====================================================\n");
+		System.out.printf("  QTY   DESCRIPTION          UNIT PRICE  TOTAL PRICE\n");
+		System.out.printf("----------------------------------------------------\n");
+		System.out.printf("%5d   %-20s%10.2f  %10.2f\n", qtyTV, "TV", PRICE_TV, tpTV);
+		System.out.printf("%5d   %-20s%10.2f  %10.2f\n", qtyVCR, "VCR", PRICE_VCR, tpVCR);
+		System.out.printf("%5d   %-20s%10.2f  %10.2f\n", qtyRemote, "Remote Controller", PRICE_REMOTE, tpRemote);
+		System.out.printf("%5d   %-20s%10.2f  %10.2f\n", qtyCD, "CD Player", PRICE_CD, tpCD);
+		System.out.printf("%5d   %-20s%10.2f  %10.2f\n", qtyTape, "Tape Recorder", PRICE_TAPE, tpTape);
+		System.out.printf("----------------------------------------------------\n");
+		System.out.printf("                               SUBTOTAL:%10.2f\n", subtotal);
+		System.out.printf("                                    TAX:%10.2f\n", tax);
+		System.out.printf("                                  TOTAL:%10.2f\n", total);
+		System.out.printf("====================================================");
 		
-		in.close();
+		in.close(); // Closes scanner
 	}
 }
