@@ -1,5 +1,3 @@
-package Assignment1;
-
 /*
  * Name: Shahar Ankonina
  * Class: CIS 35A
@@ -11,6 +9,7 @@ package Assignment1;
  *              Reads quantities, calculates totals, applies
  *              sales tax, and prints a formatted receipt.
  */
+package Assignment1;
 
 import java.util.Scanner;
 

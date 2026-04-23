@@ -1,5 +1,3 @@
-package Assignment1;
-
 /*
  * Name: Shahar Ankonina
  * Class: CIS 35A
@@ -10,6 +8,7 @@ package Assignment1;
  * Description: Converts temperatures between Celsius and
  *              Fahrenheit in both directions based on user input.
  */
+package Assignment1;
 
 import java.util.Scanner;
 
