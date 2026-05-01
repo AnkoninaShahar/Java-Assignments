@@ -9,7 +9,7 @@
  * 				and interest rate and calculates the 
  * 				balance over that given number of years
  */
-package Assignment2;
+package Assignment1;
 
 import java.util.Scanner;
 

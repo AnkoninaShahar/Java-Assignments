@@ -8,7 +8,7 @@
  * Description: Converts temperatures between Celsius and
  *              Fahrenheit in both directions based on user input.
  */
-package Assignment1;
+package Assignment0;
 
 import java.util.Scanner;
 

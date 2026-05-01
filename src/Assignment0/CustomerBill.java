@@ -9,7 +9,7 @@
  *              Reads quantities, calculates totals, applies
  *              sales tax, and prints a formatted receipt.
  */
-package Assignment1;
+package Assignment0;
 
 import java.util.Scanner;
 

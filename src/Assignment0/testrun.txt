@@ -1,0 +1,98 @@
+PROJECT 1:
+==================
+
+TEST CASE #1:
+-------------------
+
+How many TV's were sold?
+2
+How many VCR's were sold?
+1
+How many remote controller's were sold?
+4
+How many CD's were sold?
+1
+How many Tape Recorder's were sold?
+2
+====================================================
+  QTY   DESCRIPTION          UNIT PRICE  TOTAL PRICE
+----------------------------------------------------
+    2   TV                      400.00      800.00
+    1   VCR                     220.00      220.00
+    4   Remote Controller        35.20      140.80
+    1   CD Player               300.00      300.00
+    2   Tape Recorder           150.00      300.00
+----------------------------------------------------
+                               SUBTOTAL:   1760.80
+                                    TAX:    145.27
+                                  TOTAL:   1906.07
+====================================================
+
+
+
+TEST CASE #2:
+-------------------
+
+How many TV's were sold?
+3
+How many VCR's were sold?
+0
+How many remote controller's were sold?
+2
+How many CD's were sold?
+0
+How many Tape Recorder's were sold?
+21
+====================================================
+  QTY   DESCRIPTION          UNIT PRICE  TOTAL PRICE
+----------------------------------------------------
+    3   TV                      400.00     1200.00
+    0   VCR                     220.00        0.00
+    2   Remote Controller        35.20       70.40
+    0   CD Player               300.00        0.00
+   21   Tape Recorder           150.00     3150.00
+----------------------------------------------------
+                               SUBTOTAL:   4420.40
+                                    TAX:    364.68
+                                  TOTAL:   4785.08
+====================================================
+
+
+
+PROJECT 2:
+==================
+
+RUN #1:
+-------------------
+
+=== Temperature Converter ===
+
+Enter a temperature in Celsius: 0
+0.00°C = 32.00°F
+
+Enter a temperature in Fahrenheit: 98.6
+98.60°F = 37.00°C
+
+
+RUN #2:
+-------------------
+
+=== Temperature Converter ===
+
+Enter a temperature in Celsius: 100
+100.00°C = 212.00°F
+
+Enter a temperature in Fahrenheit: -13
+-13.00°F = -25.00°C
+
+
+RUN #3:
+-------------------
+
+=== Temperature Converter ===
+
+Enter a temperature in Celsius: -40
+-40.00°C = -40.00°F
+
+Enter a temperature in Fahrenheit: 17
+17.00°F = -8.33°C
