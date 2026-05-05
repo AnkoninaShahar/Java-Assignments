@@ -1,6 +1,6 @@
 Name: Shahar Ankonina
 Class: CIS 35A
-Assignment: Lab -1
+Assignment: Lab 0
 
 FILES INCLUDED:
 - CustomerBill.java

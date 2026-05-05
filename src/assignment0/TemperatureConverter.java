@@ -1,14 +1,14 @@
 /*
  * Name: Shahar Ankonina
  * Class: CIS 35A
- * Assignment: Lab -1, Project 2
+ * Assignment: Lab 0, Project 2
  * Due Date: 04/17/2026
  * Date Submitted: 04/08/2026
  *
  * Description: Converts temperatures between Celsius and
  *              Fahrenheit in both directions based on user input.
  */
-package Assignment0;
+package assignment0;
 
 import java.util.Scanner;
 

@@ -1,14 +1,39 @@
 /*
  * Name: Shahar Ankonina
  * Class: CIS 35A
- * Assignment: Lab 2a, Project 1
+ * Assignment: Lab 2, Project 1
  * Due Date: 05/03/2026
  * Date Submitted: 05/01/2026
  *
  * Description: Creates and prints the information of 
  * 				3 people to test the Person class.
  */
-package Assignment2.Assignment2a;
+
+/* Design
+   1. Variables: 
+      - name (String): Stores the person's full name.
+      - address (String): Stores the person's physical address.
+      - age (int): Stores the person's age.
+      - phoneNumber (String): Stores the person's contact number.
+      - d1 (Driver): Instance of the driver class used to call the non-static readValue() method.
+      - Stacey, Ross, Mia (Person): Object instances used to store and display the data for three different people.
+
+   2. Input: 
+      - The program uses the Scanner class to read keyboard input.
+      - It prompts the user for a String (name), another String (address), an int (age), and a final String (phone number).
+      - scanner.nextLine() is used after scanner.nextInt() to clear the newline character from the buffer to ensure the next name input isn't skipped.
+
+   3. Processing: 
+      - The main method instantiates the Driver and calls the readValue() method three times.
+      - The readValue() method collects the data and uses the overloaded constructor of the Person class to create a new object.
+      - The newly created Person object is returned to the main method.
+
+   4. Output: 
+      - The print() method in the Person class is called for each object.
+      - It displays all person attributes (Name, Address, Age, Phone) clearly in the console using formatted print statements.
+*/
+
+package assignment2.project1;
 
 import java.util.Scanner;
 

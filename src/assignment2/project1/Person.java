@@ -1,7 +1,7 @@
 /*
  * Name: Shahar Ankonina
  * Class: CIS 35A
- * Assignment: Lab 2a, Project 1
+ * Assignment: Lab 2, Project 1
  * Due Date: 05/03/2026
  * Date Submitted: 05/01/2026
  *
@@ -9,7 +9,7 @@
  * 				Contains both a default and an overload constructor,
  * 				mutator and accessor methods, and a print method.
  */
-package Assignment2.Assignment2a;
+package assignment2.project1;
 
 public class Person {
 	// Fields used to store the persons information

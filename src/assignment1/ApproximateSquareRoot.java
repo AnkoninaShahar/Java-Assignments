@@ -9,7 +9,7 @@
  * 				approximate the square root of the number.
  * 				Then it will calculate the exact square root.
  */
-package Assignment1;
+package assignment1;
 
 import java.util.Scanner;
 

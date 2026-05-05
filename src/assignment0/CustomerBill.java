@@ -1,7 +1,7 @@
 /*
  * Name: Shahar Ankonina
  * Class: CIS 35A
- * Assignment: Lab -1, Project 1
+ * Assignment: Lab 0, Project 1
  * Due Date: 04/17/2026
  * Date Submitted: 04/08/2026
  *
@@ -9,7 +9,7 @@
  *              Reads quantities, calculates totals, applies
  *              sales tax, and prints a formatted receipt.
  */
-package Assignment0;
+package assignment0;
 
 import java.util.Scanner;
 
