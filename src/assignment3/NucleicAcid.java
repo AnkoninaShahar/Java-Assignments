@@ -1,9 +1,9 @@
 /*
  * Name: Shahar Ankonina
  * Class: CIS 35A
- * Assignment: Lab 2, Project 3
- * Due Date: 05/10/2026
- * Date Submitted: 05/04/2026
+ * Assignment: Lab 3
+ * Due Date: 05/20/2026
+ * Date Submitted: 05/13/2026
  *
  * Description: Stores
  * 					- Name of the nucleic acid
@@ -13,7 +13,7 @@
  * 				Contains both a default and an overload constructor,
  * 				mutator and accessor methods, and a print method.
  */
-package assignment2.project3;
+package assignment3;
 
 /**
  * Class containing information regarding a nucleic acid
@@ -129,3 +129,5 @@ public class NucleicAcid {
 	    System.out.printf("Density: %.3f g/cm3\n\n", density);
 	}
 }
+
+
