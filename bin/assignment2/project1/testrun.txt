@@ -1,0 +1,36 @@
+Enter name: Bob Smith
+Enter address: 1234 Real Ave.
+Enter age: 73
+Enter phone number: (403) 684-8237
+
+====================================
+NAME: Bob Smith
+ADDRESS: 1234 Real Ave.
+AGE: 73
+PHONE NUMBER: (403) 684-8237
+====================================
+
+Enter name: Detective Sherlock
+Enter address: 7775 Secret Street
+Enter age: 39
+Enter phone number: (483) 912-1287
+
+====================================
+NAME: Detective Sherlock
+ADDRESS: 7775 Secret Street
+AGE: 39
+PHONE NUMBER: (483) 912-1287
+====================================
+
+Enter name: Amy Stuart
+Enter address: 3892 HelloWorld Court
+Enter age: 48
+Enter phone number: (302) 928-2904
+
+====================================
+NAME: Amy Stuart
+ADDRESS: 3892 HelloWorld Court
+AGE: 48
+PHONE NUMBER: (302) 928-2904
+====================================
+
