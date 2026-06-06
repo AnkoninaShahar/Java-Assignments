@@ -37,6 +37,7 @@ package assignment4.project2;
  */
 public class ShipDriver {
 
+	// Start of program
 	public static void main(String[] args) {
 		// SHIPS
 		// _________________________________________________

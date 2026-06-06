@@ -1,0 +1,215 @@
+Project 1:
+---
+
+===========================
+SAVINGS ACCOUNT TESTS
+===========================
+
+BEFORE INTEREST
+-----
+SAVER 1:
+===========================
+Annual Interest Rate: 4.00%
+Savings Balance: $2000.00
+===========================
+SAVER 2:
+===========================
+Annual Interest Rate: 4.00%
+Savings Balance: $3000.00
+===========================
+
+
+4% INTEREST
+-----
+SAVER 1:
+===========================
+Annual Interest Rate: 4.00%
+Savings Balance: $2006.67
+===========================
+SAVER 2:
+===========================
+Annual Interest Rate: 4.00%
+Savings Balance: $3010.00
+===========================
+
+
+5% INTEREST
+-----
+SAVER 1:
+===========================
+Annual Interest Rate: 5.00%
+Savings Balance: $2015.03
+===========================
+SAVER 2:
+===========================
+Annual Interest Rate: 5.00%
+Savings Balance: $3022.54
+===========================
+
+
+===========================
+SPECIAL SAVINGS TESTS
+===========================
+
+BEFORE INTEREST
+-----
+SAVER 1:
+===========================
+Annual Interest Rate: 4.00%
+Savings Balance: $500.00
+===========================
+SAVER 2:
+===========================
+Annual Interest Rate: 4.00%
+Savings Balance: $11500.00
+===========================
+
+AFTER INTEREST
+-----
+===========================
+Saver 1:
+    Balance: $501.67
+    Interest: $1.67
+
+Saver 2:
+    Balance: $11595.83
+    Interest: $95.83
+
+===========================
+
+Project 2:
+---
+
+=========================================
+       FLEET DEMONSTRATION
+=========================================
+
+
+=========================================
+SHIP CONDITIONS
+-----
+Floating Status: true
+Capacity: 50 people
+Dimensions (l x w x h): 150.50 x 40.00 x 25.00
+Name and Origin: The Explorer, London
+Departing on 06/01/2026 at Southampton
+Arriving on 06/15/2026 at New York
+Owner: Global Trek LLC
+=========================================
+
+
+=========================================
+SHIP CONDITIONS
+-----
+Floating Status: true
+Capacity: 35 people
+Dimensions (l x w x h): 120.00 x 35.00 x 20.00
+Name and Origin: Sea Rover, Lisbon
+Departing on 07/10/2026 at Lisbon
+Arriving on 07/25/2026 at Boston
+Owner: Atlantic Charters
+=========================================
+
+
+=========================================
+SHIP CONDITIONS
+-----
+Floating Status: false
+Capacity: 0 people
+Dimensions (l x w x h): 85.00 x 25.00 x 15.00
+Name and Origin: Rusty Bucket, Seattle
+Departing on N/A at Dry Dock
+Arriving on N/A at N/A
+Owner: Salvage Co.
+=========================================
+
+
+=========================================
+SHIP CONDITIONS
+-----
+Floating Status: true
+Capacity: 20 people
+Dimensions (l x w x h): 300.00 x 60.00 x 45.00
+Name and Origin: Iron Giant, Shanghai
+Departing on 05/20/2026 at Shanghai Port
+Arriving on 06/10/2026 at Los Angeles
+Owner: Maersk
+=========================================
+CARGO CONDITIONS
+-----
+Cargo Type: Electronics
+Loading Method: Crane Lift
+Contraband: None
+Number of Cranes: 12 cranes
+Cargo Value: $5000000.00
+=========================================
+
+
+=========================================
+SHIP CONDITIONS
+-----
+Floating Status: true
+Capacity: 25 people
+Dimensions (l x w x h): 250.00 x 55.00 x 40.00
+Name and Origin: Bulk Carrier, Hamburg
+Departing on 08/01/2026 at Hamburg
+Arriving on 08/14/2026 at Norfolk
+Owner: Hapag-Lloyd
+=========================================
+CARGO CONDITIONS
+-----
+Cargo Type: Grain
+Loading Method: Conveyor Belt
+Contraband: None
+Number of Cranes: 8 cranes
+Cargo Value: $1200000.00
+=========================================
+
+
+=========================================
+SHIP CONDITIONS
+-----
+Floating Status: true
+Capacity: 3500 people
+Dimensions (l x w x h): 360.00 x 47.00 x 65.00
+Name and Origin: Oceanic Queen, Miami
+Departing on 07/04/2026 at Port of Miami
+Arriving on 07/11/2026 at Nassau
+Owner: Royal Caribbean
+=========================================
+CRUISE CONDITIONS
+-----
+Ticket Price: $899.99
+Number of Rooms: 1500 rooms
+Buffet Menu: Continental & Seafood
+cruiseType: Luxury Leisure
+Services:
+ - Spa
+ - Casino
+ - Theater
+ - Pool Deck
+=========================================
+
+
+=========================================
+SHIP CONDITIONS
+-----
+Floating Status: true
+Capacity: 1200 people
+Dimensions (l x w x h): 240.00 x 32.00 x 40.00
+Name and Origin: Starlight Serenity, Venice
+Departing on 09/15/2026 at Venice
+Arriving on 09/22/2026 at Dubrovnik
+Owner: Viking Cruises
+=========================================
+CRUISE CONDITIONS
+-----
+Ticket Price: $1500.00
+Number of Rooms: 600 rooms
+Buffet Menu: Gourmet Italian
+cruiseType: Cultural Expedition
+Services:
+ - Library
+ - Art Gallery
+ - Fine Dining
+=========================================
